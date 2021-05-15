@@ -13,6 +13,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+body,
+figure {
+    margin: 0;
+}
+
 h1,
 h2,
 h3 {
@@ -31,4 +36,12 @@ p {
 h3,
 strong {
     color: #FDD130;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
 }
