@@ -44,4 +44,57 @@ img {
 
 .wrapper {
     margin: 0 auto;
+    padding-inline: 25px;
+}
+
+
+
+/* Header section */
+h1 {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    block-size: 100vh;
+    background-image: url(../assets/img/background-LARGEMG.png);
+    background-size: cover;
+}
+
+header,
+.arrow-down {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: black;
+}
+
+.text-header {
+    font-size: 2.4rem;
+    color: var(--dark-bg);
+}
+
+.sector-content {
+    display: flex;
+    justify-content: space-between;
+    line-height: 3.6rem;
+}
+
+.line-yellow {
+    display: inline-block;
+    width: 75px;
+    height: 2px;
+    background-color: #FDD130;
+}
+
+.arrow-down {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../assets/icons/arrow-down.svg);
+    background-size: contain;
 }
