@@ -98,3 +98,8 @@ header p {
     background-image: url(../assets/icons/arrow-down.svg);
     background-size: contain;
 }
+
+/* Main section */
+main {
+    background-color: #0B1D26;
+}
