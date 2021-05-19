@@ -58,8 +58,8 @@ h1 {
 
 header {
     width: 100%;
-    block-size: 100vh;
-    background-image: url(../assets/img/background-LARGEMG.png);
+    height: 1042px;
+    background: linear-gradient(181.17deg, rgba(255, 255, 255, 0.1) 17%, var(--dark-bg) 100% ), url(../assets/img/background-LARGEMG.png);
     background-size: cover;
 }
 
@@ -100,6 +100,7 @@ header p {
     background-image: url(../assets/icons/arrow-down.svg);
     background-size: contain;
 }
+
 
 /* Main section */
 main {
