@@ -113,6 +113,10 @@ main {
     background-color: #0B1D26;
 }
 
+section {
+    margin-block-end: 60px;
+}
+
 .right-arrow {
     height: 15px;
     margin-inline-start: 10px;
@@ -136,6 +140,6 @@ main {
     background-color: var(--yellow);
 }
 
-section {
-    margin-bottom: 20px;
+.second-number::before {
+    margin-top: 56px;
 }
