@@ -64,7 +64,8 @@ header {
 }
 
 header,
-.arrow-down {
+.arrow-down,
+.right-arrow {
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -94,16 +95,47 @@ header p {
     width: 75px;
 }
 
-.arrow-down {
+.arrow-down,
+.right-arrow {
     display: inline-block;
     width: 25px;
+    background-size: contain;
+}
+
+.arrow-down {
     height: 25px;
     background-image: url(../assets/icons/arrow-down.svg);
-    background-size: contain;
 }
 
 
 /* Main section */
 main {
     background-color: #0B1D26;
+}
+
+.right-arrow {
+    height: 15px;
+    margin-inline-start: 10px;
+    background-image: url(../assets/icons/arrow_right.svg);
+    vertical-align: middle;
+}
+
+.number {
+    font-size: 8rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.number::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    margin-top: 36px;
+    background-color: var(--yellow);
+}
+
+section {
+    margin-bottom: 20px;
 }
