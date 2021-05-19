@@ -109,7 +109,8 @@ header p {
 
 
 /* Main section */
-main {
+main,
+footer {
     background-color: #0B1D26;
 }
 
@@ -142,4 +143,8 @@ section {
 
 .second-number::before {
     margin-top: 56px;
+}
+
+.third-number::before {
+    margin-top: 76px;
 }
