@@ -18,3 +18,26 @@
     font-size: 3.8rem;
     margin-top: 10px;
 }
+
+/* Main section */
+section {
+    display: flex;
+    width: 75%;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0 auto 130px;
+}
+
+section:nth-of-type(2) {
+    flex-direction: row;
+}
+
+.second-section__content {
+    margin-inline-end: 0;
+    margin-inline-start: 50px;
+}
+
+.section-content {
+    width: 75%;
+    margin-inline-end: 50px;
+}
