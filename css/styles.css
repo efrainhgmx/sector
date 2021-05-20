@@ -125,7 +125,7 @@ section {
 .number {
     font-size: 8rem;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(196, 196, 196, 0.2);
 }
 
 .number::before {
@@ -144,4 +144,13 @@ section {
 
 .third-number::before {
     margin-top: 76px;
+}
+
+/* Footer section */
+.logo {
+    inline-size: 90px;
+}
+
+.copy-section p {
+    color: rgba(196, 196, 196, 0.6);
 }
