@@ -170,3 +170,10 @@ ul li:hover {
     cursor: pointer;
     color: rgba(196, 196, 196, 0.6);
 }
+
+@media (max-width: 768px) {
+    section figure {
+        inline-size: 95%;
+        margin: auto;
+    }
+}
