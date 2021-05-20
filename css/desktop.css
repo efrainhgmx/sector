@@ -1,0 +1,20 @@
+/* Header and hero section */
+
+.header-content__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sector-content {
+    width: 320px;
+}
+
+.hero-section {
+    width: 50%;
+    margin: auto;
+}
+
+.text-header {
+    font-size: 3.8rem;
+    margin-top: 10px;
+}
