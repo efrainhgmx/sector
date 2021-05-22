@@ -2,6 +2,14 @@
     width: 90%;
     max-width: 1420px;
 }
+.social-media,
+nav {
+    position: absolute;
+}
+
+.social-media {
+    top: 150px;
+}
 
 .social-icon {
     width: 24px;
@@ -9,6 +17,8 @@
 }
 
 nav {
+    top: 148px;
+    right: 55px;
     text-align: right;
     width: 175px;
     display: flex;
