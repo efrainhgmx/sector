@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" type="text/css" href="./css/desktop.css" media="(min-width: 1023px)">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -37,7 +38,7 @@
                     <p>Componentes</p>
                 </div>
                 </div>
-                <div class="hero-section">
+                <div class="hero-section" data-aos="fade-up">
                     <span class="line-yellow"></span>
                     <p class="text-header">Si estás buscando escribir tu nombre en la calle, entonces quieres una tabla de Sector Nine.</p>
                     <a href="#one" rel="noopener noreferrer"><span class="arrow-down"></span></a>
@@ -48,7 +49,7 @@
     <main>
         <div class="wrapper">
             <div class="main-content">
-                <section id="one">
+                <section data-aos="fade-left" id="one">
                     <figure>
                         <picture>
                             <source srcset="./assets/img/cruiser-LARGE.png" media="(min-width: 1024px)">
@@ -62,7 +63,7 @@
                         <p><strong>Leer más <span class="right-arrow"></span></strong></p>
                     </div>
                 </section>
-                <section id="two">
+                <section data-aos="fade-right" id="two">
                     <figure>
                         <picture>
                             <source srcset="./assets/img/carving-LARGE.png" media="(min-width: 1024px)">
@@ -76,7 +77,7 @@
                         <p><strong>Leer más <span class="right-arrow"></span></strong></p>
                     </div>
                 </section>
-                <section id="three">
+                <section data-aos="fade-left" id="three">
                     <figure>
                         <picture>
                             <source srcset="./assets/img/downhill-LARGE.png" media="(min-width: 1024px)">
@@ -121,5 +122,13 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      AOS.init({
+          duration: 1000
+      });
+    </script>
 </body>
 </html>
