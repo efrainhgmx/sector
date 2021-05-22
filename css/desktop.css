@@ -48,14 +48,19 @@ section:nth-of-type(2) {
 }
 
 /* Footer Section */
-.footer-content {
+
+.footer-content,
+.footer-about {
     display: flex;
     justify-content: space-between;
+}
+
+.footer-content {
+    margin: auto;
+    width: 90%;
     align-items: center;
 }
 
 .footer-about {
     width: 50%;
-    display: flex;
-    justify-content: space-between;
 }
