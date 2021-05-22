@@ -1,6 +1,6 @@
 .wrapper {
     width: 90%;
-    max-width: 1320px;
+    max-width: 1420px;
 }
 
 /* Header and hero section */
@@ -29,22 +29,35 @@ section {
     display: flex;
     width: 80%;
     flex-direction: row-reverse;
-    align-items: center;
+    align-items: flex-end;
     margin: 0 auto 130px;
 }
 
 section:nth-of-type(2) {
     flex-direction: row;
+    width: 100%;
 }
 
 .second-section__content {
     margin-inline-end: 0;
-    margin-inline-start: 50px;
+    margin-inline-start: 150px;
 }
 
 .section-content {
     width: 75%;
     margin-inline-end: 50px;
+}
+
+.number {
+    font-size: 16rem;
+    position: relative;
+    top: 112px;
+    right: 115px;
+}
+
+.number::before {
+    margin-top: 100px;
+    margin-left: 115px;
 }
 
 /* Footer Section */
