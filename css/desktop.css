@@ -60,6 +60,11 @@ nav a:hover {
 }
 
 /* Main section */
+.main-content {
+    position: relative;
+    bottom: 180px;
+}
+
 section {
     display: flex;
     width: 80%;
