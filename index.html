@@ -39,13 +39,13 @@
             <div class="header-content">
                 <div class="social-media block" aria-label="Redes Sociales">
                     <figure class="social-icon">
-                        <img src="./assets/icons/instagram.svg" alt="Instagram Sector nine" title="Instagram Sector">
+                        <img src="./assets/icons/instagram.svg" width="24" height="24" alt="Instagram Sector nine" title="Instagram Sector">
                     </figure>
                     <figure class="social-icon">
-                        <img src="./assets/icons/twitter.svg" alt="Twitter Sector" title="Twitter sector">
+                        <img src="./assets/icons/twitter.svg" width="24" height="24" alt="Twitter Sector" title="Twitter sector">
                     </figure>
                 </div>
-                <nav class="block">
+                <nav role="navigation" class="block">
                     <a href="https://efrainhgmx.com/sector/" rel="noopener noreferrer">Inicio</a>
                     <a href="#one" rel="noopener noreferrer">01</a>
                     <a href="#two" rel="noopener noreferrer">02</a>
@@ -62,7 +62,7 @@
                 <div class="hero-section" data-aos="fade-up">
                     <span class="line-yellow"></span>
                     <p class="text-header">Si estás buscando escribir tu nombre en la calle, entonces quieres una tabla de Sector Nine.</p>
-                    <a href="#one" rel="noopener noreferrer"><span class="arrow-down"></span></a>
+                    <a href="#one" aria-label="Ir abajo" rel="noopener noreferrer"><span class="arrow-down"></span></a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                     <figure>
                         <picture>
                             <source srcset="./assets/img/cruiser-LARGE.png" media="(min-width: 1024px)">
-                            <img src="./assets/img/cruiser-small.png" type="image/png" alt="Cruiser" title="CRUISER" loading="lazy">
+                            <img src="./assets/img/cruiser-small.png" min-width="240" min-height="305"  type="image/png" alt="Cruiser" title="CRUISER" loading="lazy">
                         </picture>
                     </figure>
                     <div class="section-content">
@@ -88,7 +88,7 @@
                     <figure>
                         <picture>
                             <source srcset="./assets/img/carving-LARGE.png" media="(min-width: 1024px)">
-                            <img src="./assets/img/carving-small.png" type="image/png" alt="Cruiser" title="CRUISER" loading="lazy">
+                            <img src="./assets/img/carving-small.png" min-width="240" min-height="305" type="image/png" alt="Cruiser" title="CRUISER" loading="lazy">
                         </picture>
                     </figure>
                     <div class="section-content second-section__content">
@@ -102,7 +102,7 @@
                     <figure>
                         <picture>
                             <source srcset="./assets/img/downhill-LARGE.png" media="(min-width: 1024px)">
-                            <img src="./assets/img/downhill-small.png" type="image/png" alt="Cruiser" title="CRUISER" loading="lazy">
+                            <img src="./assets/img/downhill-small.png" min-width="240" min-height="305"  type="image/png" alt="Cruiser" title="CRUISER" loading="lazy">
                         </picture>
                     </figure>
                     <div class="section-content">
@@ -125,20 +125,24 @@
                     <p>Copyright 2021 &COPY;, Sector Nine</p>
                 </div>
                 <div class="footer-about">
-                    <ul>
+                    <div class="footer-list">
                         <h3>SERVICIO AL CLIENTE</h3>
-                        <li>Contacto</li>
-                        <li>Preguntas frecuentes</li>
-                        <li>Distribuidores</li>
-                        <li>Política de privacidad</li>
-                        <li>Devoluciones</li>
-                    </ul>
-                    <ul>
+                        <ul>
+                            <li>Contacto</li>
+                            <li>Preguntas frecuentes</li>
+                            <li>Distribuidores</li>
+                            <li>Política de privacidad</li>
+                            <li>Devoluciones</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list">
                         <h3>ACERCA DE</h3>
-                        <li>La Bola 9</li>
-                        <li>Completos certificados</li>
-                        <li>Garantía</li>
-                    </ul>
+                        <ul>
+                            <li>La Bola 9</li>
+                            <li>Completos certificados</li>
+                            <li>Garantía</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
