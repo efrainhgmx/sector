@@ -139,7 +139,7 @@ section {
 .number {
     font-size: 8rem;
     font-weight: 700;
-    color: rgba(196, 196, 196, 0.2);
+    color: rgba(196, 196, 196, 0.3);
 }
 
 .number::before {
@@ -166,7 +166,7 @@ section {
 }
 
 .copy-section p {
-    color: rgba(196, 196, 196, 0.6);
+    color: rgba(196, 196, 196, 0.8);
 }
 
 ul {
